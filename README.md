@@ -1,3 +1,18 @@
+---
+title: Know About Madiha
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: 4.44.0
+python_version: 3.11
+app_file: app.py
+pinned: false
+---
+
+
+
+
 # Know About Madiha — AI Portfolio Assistant
 
 An AI-powered portfolio assistant built with **Python and Gradio** that allows users to interactively explore Madiha Shaikh’s professional profile.
@@ -51,7 +66,7 @@ This model allows users to ask:
 * Programming questions
 * Open-ended conversations
 
-⚠️ Note:
+Note:
 The general model runs **locally through Ollama** and may not be available in cloud deployments.
 
 ---
