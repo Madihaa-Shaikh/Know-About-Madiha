@@ -16,7 +16,7 @@ class MadihaInfoModel(ChatModel):
         if any(k in msg for k in ["who are you", "about you", "introduce", "summary", "profile", "cv", "resume"]):
             return self._cv_summary()
 
-        if any(k in msg for k in ["experience", "work", "job", "professional", "center for hybrid", "teleseo", "data bites"]):
+        if any(k in msg for k in ["experience", "work", "job", "professional", "", "center for hybrid", "teleseo", "data bites"]):
             return self._experience()
 
         if any(k in msg for k in ["skills", "stack", "tech", "tools", "technologies"]):
@@ -36,7 +36,13 @@ class MadihaInfoModel(ChatModel):
 
         if any(k in msg for k in ["role", "looking for", "target", "position"]):
             return self._target_roles()
+        # ====== Quick intents ======
+        if any(k in msg for k in ["how many years", "years of experience", "experience do you have"]):
+            return self._experience()
 
+        if any(k in msg for k in ["experience", "work", "job", "professional"]):
+            return self._experience()
+        
         # Default: helpful menu
         return (
              "Hi how are you ?:\n"
@@ -65,7 +71,9 @@ class MadihaInfoModel(ChatModel):
 
     def _experience(self) -> str:
         p = MADIHA_PROFILE
-        out = ["**Professional Experience**\n"]
+        
+        out = ["I have over 5 years of professional experience in Applied AI and Software Engineering. Here are the organizations I have worked with:\n"]
+
         for exp in p["experience"]:
             out.append(f"**{exp['company']}** — {exp['role']} ({exp['dates']})")
             for b in exp["bullets"]:
