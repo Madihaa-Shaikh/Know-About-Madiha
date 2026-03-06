@@ -10,12 +10,7 @@ app_file: app.py
 pinned: false
 ---
 
-
-# I also developed and deployed an interactive AI portfolio assistant : https://huggingface.co/spaces/Madihaa/Know-About-Madiha.
-
-https://huggingface.co/spaces/Madihaa/Know-About-Madiha
-
-# Know About Madiha — AI Portfolio Assistant
+# Know About Madiha — AI Portfolio Assistant (I also developed and deployed an interactive AI portfolio assistant : https://huggingface.co/spaces/Madihaa/Know-About-Madiha.)
 
 An AI-powered portfolio assistant built with **Python and Gradio** that allows users to interactively explore Madiha Shaikh’s professional profile.
 The system uses **Clean Architecture principles** and integrates two models to provide both profile-based responses and general AI conversation.
