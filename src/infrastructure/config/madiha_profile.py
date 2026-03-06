@@ -50,7 +50,7 @@ MADIHA_PROFILE = {
 
     "experience": [
         {
-           
+            
             "company": "Industrial Collaboration Project with PACE Aerospace Engineering, Fraunhofer, Siemens, Rolls-Royce, and Brandenburg University of Technology (BTU), Germany",
             "role": "AI Engineer",
             "dates": "10/2024 – Present",
@@ -146,5 +146,27 @@ MADIHA_PROFILE = {
         "ML Deployment Engineer",
         "Applied AI Engineer",
         "Robotics Perception Engineer",
+    ],
+    "certifications": [
+        {
+            "name": "Build and deploy 8 LLM apps, mastering Generative AI, RAG, LoRA and AI Agents",
+            "provider": "University of Michigan (Coursera)",
+            "date": "April 2026"
+        },
+        {
+            "name": "Machine Learning",
+            "provider": "Stanford University (Coursera)",
+            "date": "Oct 2021"
+        },
+        {
+            "name": "Programming for Everybody (Getting Started with Python)",
+            "provider": "University of Michigan (Coursera)",
+            "date": "Nov 2021"
+        },
+        {
+            "name": "Python Data Structures",
+            "provider": "University of Michigan (Coursera)",
+            "date": "Nov 2021"
+        }
     ],
 }
