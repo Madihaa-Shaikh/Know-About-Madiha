@@ -11,7 +11,9 @@ pinned: false
 ---
 
 
+# I also developed and deployed an interactive AI portfolio assistant : https://huggingface.co/spaces/Madihaa/Know-About-Madiha.
 
+https://huggingface.co/spaces/Madihaa/Know-About-Madiha
 
 # Know About Madiha — AI Portfolio Assistant
 
