@@ -14,7 +14,6 @@ pinned: false
 
 An AI-powered portfolio assistant built with **Python and Gradio** that allows users to interactively explore Madiha Shaikh’s professional profile.
 The system uses **Clean Architecture principles** and integrates two models to provide both profile-based responses and general AI conversation.
-https://huggingface.co/spaces/Madihaa/Know-About-Madiha.
 ---
 
 ## Overview
