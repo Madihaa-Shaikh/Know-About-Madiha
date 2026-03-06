@@ -9,7 +9,13 @@ python_version: 3.11
 app_file: app.py
 pinned: false
 ---
-## Know About Madiha — AI Portfolio Assistant
+
+# Know About Madiha — AI Portfolio Assistant
+
+Live Demo:  
+https://huggingface.co/spaces/Madihaa/Know-About-Madiha
+
+This project is an interactive AI portfolio assistant that allows users to explore my background, projects, experience, and technical skills through a conversational interface.
 link : https://huggingface.co/spaces/Madihaa/Know-About-Madiha.
 
 ## Overview
