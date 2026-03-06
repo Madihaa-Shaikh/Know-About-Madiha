@@ -8,8 +8,8 @@ sdk_version: 4.44.0
 python_version: 3.11
 app_file: app.py
 pinned: false
-# Know About Madiha — AI Portfolio Assistant
 ---
+
 ## Overview
 
 This project is a conversational AI interface designed to present **professional portfolio information in an interactive way**.
