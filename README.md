@@ -10,7 +10,7 @@ app_file: app.py
 pinned: false
 ---
 
-# Know About Madiha — AI Portfolio Assistant
+# Know About Madiha — Ollama AI Portfolio Assistant
 
 Live Demo:  
 https://huggingface.co/spaces/Madihaa/Know-About-Madiha
